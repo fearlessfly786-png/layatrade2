@@ -126,7 +126,7 @@ print(f"Part B (live, after dataset build, outcome in future):  {len(live)} hour
 import laya
 print("\nLoading fine-tuned checkpoint ...", flush=True)
 t0 = time.time()
-agent = laya.load("./laya-trading-v5")
+agent = laya.load("./laya-trading-v6")
 print(f"loaded in {time.time()-t0:.1f}s\n", flush=True)
 
 all_idx = scoreable + live
